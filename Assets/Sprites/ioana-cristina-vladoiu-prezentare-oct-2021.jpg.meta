@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: 511cea5823a27e64d903373594cc9353
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 900
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd84f59db1638c47a7c22932d6afb45
+      internalID: 1996729993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 900
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01a3b74882115240a5d0eed677e257c
+      internalID: -1638272990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 900
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f10e6ec583f3534db3cb83b8df1a51e
+      internalID: -94433293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff13b76f68c242b42953cb26c809b864
+      internalID: 805886731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_4
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 900
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f6515413ff5ab4cac2d25692afbc97
+      internalID: 120827078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 900
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2004a183af127c64fa74d9fef27a5443
+      internalID: 776375340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_6
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 900
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfe623fefc7e68499744d7025d9d5e0
+      internalID: -537028206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_7
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 900
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbc99dc1700407409eded2327e246e6
+      internalID: 765687257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_8
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 900
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce5777e99b95754bbc60f10824eceb9
+      internalID: -1738821879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_9
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 900
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76832438979fdd94a8aca5879b613c69
+      internalID: 258937513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 720
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a852fca1ed8aa0844be51431e06bbdf4
+      internalID: -65429578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea20267c7eb4cf47a639c8068fc2281
+      internalID: 1510096574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 720
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b2c965ced74654a826ac402e86271f
+      internalID: -1242068978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 720
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53875e0c5d168a4597a300d39e63c32
+      internalID: 591124616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_14
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 720
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ad834ac189f0748a7158f7b96101e3
+      internalID: -37107512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 720
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e61a1d9a77d7c943a336d4d3f0117ae
+      internalID: 481312742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_16
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 720
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a08ed8eeecbe944a39ac1d825e5f22
+      internalID: -1607269012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_17
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 720
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f9949886ec7e343a09585c1b7c857f
+      internalID: -1422264848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_18
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 720
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad1e79ca060aad488e36ef1cdb0b86b
+      internalID: -959700182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_19
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 720
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538cda2c506ea6843917ca303d8eea71
+      internalID: -1275832680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 540
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fedbeac9dfc5614baf7f5872ac3b110
+      internalID: -1841560562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 540
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d028ecdbc3eb174caa101b71e8467bc
+      internalID: 1136981035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 540
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b48472cfe8779343a2f87bd7a603f0f
+      internalID: 2042363991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 540
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dee8c63ac92bb14c9acc82d3f852f8a
+      internalID: 1104825848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_24
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 540
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b55df6d1faa73a41a73f23f23ebf36d
+      internalID: -696565490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 540
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc5d2ba57afcc54ca07015048bf9d1c
+      internalID: -1774167845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_26
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 540
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17426803ba6eb844bceb2770ab23c7e
+      internalID: -1633834843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_27
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 540
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ce32f7f6714d5449ac1cd88c9290da
+      internalID: -1918694195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_28
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 540
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e63725d6308e6041a568c9a67bc72d9
+      internalID: 350399923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_29
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 540
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6961aa1e3cee64ebc0231b0ab46cf1
+      internalID: 137396853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_30
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 360
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d0b17c01115d440a88d316ab633037
+      internalID: -151387405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd81e270abf0c87449c45d78e82a819d
+      internalID: 1832527628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_32
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 360
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b338ecc1f24cc4ba4858c5d7e5e873
+      internalID: 524645635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 360
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644f263040187d245a6e92de5a8ad8d5
+      internalID: 132758366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_34
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 360
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b5300738ecb534e99b27a3162ceae8
+      internalID: 1128357359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_35
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 360
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14b7e919290b54459ca124217b80cce
+      internalID: 1631006238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_36
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 360
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e8c23fdc5c55844bf917a0075176c4
+      internalID: 1806023833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_37
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 360
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bb90c6b38d0514c9064084912b31af
+      internalID: 2070466755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_38
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 360
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3677b4d243650b8458bfa20125c30b04
+      internalID: -1831939144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_39
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 360
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd0a2bc0684285449657d7e28a698a4
+      internalID: -1362070190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2847f6484a18e2e449f75313db2649e6
+      internalID: -1952876105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1ac9d7dd10ad145a69853bfb01633d
+      internalID: -1219609396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_42
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9af728ad51cff748ad9b9fd9144100d
+      internalID: -766649771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_43
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9b725cfa68b384d858372c232745b4
+      internalID: 1043673606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_44
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a6dbfc421fb6d459e7707716e440a9
+      internalID: 2049022480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_45
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b95c1257fc0dd141948c608d94f1e45
+      internalID: -538311646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_46
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f376327e785ba45abd834d0b78b5b5
+      internalID: 2044196441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_47
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3681617191f18e84a9d9f5c5e4f837b6
+      internalID: -1650597726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_48
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ff1b0cd826f1f469e791939544d27e
+      internalID: -1198396212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_49
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5effd4583f404a441b2b0c4a81d80eea
+      internalID: 590868423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_50
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2fd455028141e4d9e549e1dc88b08b
+      internalID: 579543519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579afbffbc4963b4aab9b33c081ef1bb
+      internalID: -2050570632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_52
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aab430ddce7fe1468c1b0302f789ade
+      internalID: -2018999076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_53
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1f3c1fc89518b4d8b282b5042f3c8a
+      internalID: -1899144545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_54
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0971fd8311e95a46a596852d488689b
+      internalID: 990190322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_55
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c28c3d5509ca646b1be4575389de92
+      internalID: -670762856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_56
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11aedbb6d5794744ab75a5cd367e6df
+      internalID: 969881069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_57
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947839d70e2255e458b4b2d4ec5f006b
+      internalID: 1308819978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_58
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a64602a638d364bb62570dfa8fdccc
+      internalID: -1133462746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ioana-cristina-vladoiu-prezentare-oct-2021_59
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b18fa4bd7a9d284b8d9521dcd2f50c0
+      internalID: 1769934701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3a083c4a6d0c75241bf6850b1c6f51d5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ioana-cristina-vladoiu-prezentare-oct-2021_19: -1275832680
+      ioana-cristina-vladoiu-prezentare-oct-2021_28: 350399923
+      ioana-cristina-vladoiu-prezentare-oct-2021_23: 1104825848
+      ioana-cristina-vladoiu-prezentare-oct-2021_32: 524645635
+      ioana-cristina-vladoiu-prezentare-oct-2021_6: -537028206
+      ioana-cristina-vladoiu-prezentare-oct-2021_13: 591124616
+      ioana-cristina-vladoiu-prezentare-oct-2021_38: -1831939144
+      ioana-cristina-vladoiu-prezentare-oct-2021_44: 2049022480
+      ioana-cristina-vladoiu-prezentare-oct-2021_15: 481312742
+      ioana-cristina-vladoiu-prezentare-oct-2021_2: -94433293
+      ioana-cristina-vladoiu-prezentare-oct-2021_8: -1738821879
+      ioana-cristina-vladoiu-prezentare-oct-2021_27: -1918694195
+      ioana-cristina-vladoiu-prezentare-oct-2021_36: 1806023833
+      ioana-cristina-vladoiu-prezentare-oct-2021_59: 1769934701
+      ioana-cristina-vladoiu-prezentare-oct-2021_54: 990190322
+      ioana-cristina-vladoiu-prezentare-oct-2021_40: -1952876105
+      ioana-cristina-vladoiu-prezentare-oct-2021_14: -37107512
+      ioana-cristina-vladoiu-prezentare-oct-2021_24: -696565490
+      ioana-cristina-vladoiu-prezentare-oct-2021_11: 1510096574
+      ioana-cristina-vladoiu-prezentare-oct-2021_1: -1638272990
+      ioana-cristina-vladoiu-prezentare-oct-2021_43: 1043673606
+      ioana-cristina-vladoiu-prezentare-oct-2021_47: -1650597726
+      ioana-cristina-vladoiu-prezentare-oct-2021_26: -1633834843
+      ioana-cristina-vladoiu-prezentare-oct-2021_52: -2018999076
+      ioana-cristina-vladoiu-prezentare-oct-2021_33: 132758366
+      ioana-cristina-vladoiu-prezentare-oct-2021_39: -1362070190
+      ioana-cristina-vladoiu-prezentare-oct-2021_37: 2070466755
+      ioana-cristina-vladoiu-prezentare-oct-2021_58: -1133462746
+      ioana-cristina-vladoiu-prezentare-oct-2021_56: 969881069
+      ioana-cristina-vladoiu-prezentare-oct-2021_25: -1774167845
+      ioana-cristina-vladoiu-prezentare-oct-2021_55: -670762856
+      ioana-cristina-vladoiu-prezentare-oct-2021_20: -1841560562
+      ioana-cristina-vladoiu-prezentare-oct-2021_46: 2044196441
+      ioana-cristina-vladoiu-prezentare-oct-2021_53: -1899144545
+      ioana-cristina-vladoiu-prezentare-oct-2021_29: 137396853
+      ioana-cristina-vladoiu-prezentare-oct-2021_9: 258937513
+      ioana-cristina-vladoiu-prezentare-oct-2021_51: -2050570632
+      ioana-cristina-vladoiu-prezentare-oct-2021_49: 590868423
+      ioana-cristina-vladoiu-prezentare-oct-2021_42: -766649771
+      ioana-cristina-vladoiu-prezentare-oct-2021_35: 1631006238
+      ioana-cristina-vladoiu-prezentare-oct-2021_5: 776375340
+      ioana-cristina-vladoiu-prezentare-oct-2021_18: -959700182
+      ioana-cristina-vladoiu-prezentare-oct-2021_41: -1219609396
+      ioana-cristina-vladoiu-prezentare-oct-2021_21: 1136981035
+      ioana-cristina-vladoiu-prezentare-oct-2021_22: 2042363991
+      ioana-cristina-vladoiu-prezentare-oct-2021_16: -1607269012
+      ioana-cristina-vladoiu-prezentare-oct-2021_10: -65429578
+      ioana-cristina-vladoiu-prezentare-oct-2021_45: -538311646
+      ioana-cristina-vladoiu-prezentare-oct-2021_48: -1198396212
+      ioana-cristina-vladoiu-prezentare-oct-2021_12: -1242068978
+      ioana-cristina-vladoiu-prezentare-oct-2021_7: 765687257
+      ioana-cristina-vladoiu-prezentare-oct-2021_17: -1422264848
+      ioana-cristina-vladoiu-prezentare-oct-2021_57: 1308819978
+      ioana-cristina-vladoiu-prezentare-oct-2021_0: 1996729993
+      ioana-cristina-vladoiu-prezentare-oct-2021_4: 120827078
+      ioana-cristina-vladoiu-prezentare-oct-2021_34: 1128357359
+      ioana-cristina-vladoiu-prezentare-oct-2021_30: -151387405
+      ioana-cristina-vladoiu-prezentare-oct-2021_50: 579543519
+      ioana-cristina-vladoiu-prezentare-oct-2021_31: 1832527628
+      ioana-cristina-vladoiu-prezentare-oct-2021_3: 805886731
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
