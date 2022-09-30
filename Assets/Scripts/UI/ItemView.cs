@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using Inventory;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,5 +14,6 @@ namespace UI
         [SerializeField] private TMP_Text rightUpperText;
         [SerializeField] private TMP_Text leftBottomText;
         [SerializeField] private TMP_Text rightBottomText;
+        private Item item;
     }
 }

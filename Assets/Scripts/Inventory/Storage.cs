@@ -1,18 +1,21 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Inventory
 {
+    [Serializable]
     public class Storage
     {
-        private int capacity;
-        private float perishableMultiplier;
-        private List<Item> items;
-        private float weight;
-        private float maxWeight;
+        [SerializeField] private int capacity;
+        [SerializeField] private float perishableMultiplier = 1;
+        [SerializeField] private List<Item> items;
+        [SerializeField] private float weight;
+        [SerializeField] private float maxWeight;
 
         public void AddItem(Item item)
         {
+            items.Add(item);
         }
 
         public void AddItems(IEnumerator<Item> itemsToAdd)

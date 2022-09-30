@@ -1,10 +1,18 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Sirenix.OdinInspector;
+using Sirenix.Serialization;
+using Sirenix.Utilities;
+using UnityEngine;
 
 namespace Inventory
 {
     [CreateAssetMenu(fileName = "ItemSetting", menuName = "Lever/Inventory/ItemSetting")]
-    public class ItemSetting : ScriptableObject
+    public class ItemSetting : SerializedScriptableObject
     {
-        [SerializeField] private Item item;
+        [NonSerialized, OdinSerialize] private Item item = new Item();
+
+        public Item GetItem => (Item)item.Clone();
     }
 }

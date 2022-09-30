@@ -1,20 +1,54 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using UnityEngine;
 
 namespace Inventory
 {
     [Serializable]
-    public abstract class Item
+    public class Item : ICloneable
     {
         [SerializeField] private int id;
         [SerializeField] private string title;
         [SerializeField] private string description;
-        [SerializeField] private Sprite icon;
+        [PreviewField][SerializeField] private Sprite icon;
         [SerializeField] private float weight;
 
-        [SerializeField] private List<ItemFeature> features;
-        // private float quality;
-        // public float Quality => quality;
+        [SerializeField][TypeFilter("GetFilteredTypeList")]
+        private List<ItemFeature> features = new List<ItemFeature>();
+
+        public ItemFeature GetFeature(Type featureType)
+        {
+            var itemFeature = features.Find(x => x.GetType() == featureType);
+            return itemFeature;
+        }
+        
+        public bool FeatureExist(Type featureType)
+        {
+            return features.Exists(x => x.GetType() == featureType);
+        }
+
+        private IEnumerable<Type> GetFilteredTypeList()
+        {
+            var q = typeof(ItemFeature).Assembly.GetTypes()
+                .Where(x => !x.IsAbstract)
+                .Where(x => !x.IsGenericTypeDefinition)
+                .Where(x => typeof(ItemFeature).IsAssignableFrom(x));
+            return q;
+        }
+
+        public object Clone()
+        {
+            var itemCopy = (Item)MemberwiseClone();
+            var featuresCopy = new List<ItemFeature>();
+            foreach (var feature in features)
+            {
+                featuresCopy.Add((ItemFeature)feature.Clone());
+            }
+            itemCopy.features = featuresCopy;
+            return itemCopy;
+        }
     }
 }

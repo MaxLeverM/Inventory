@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 32223266}
   - component: {fileID: 32223265}
   - component: {fileID: 32223264}
+  - component: {fileID: 32223267}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -191,6 +192,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &32223267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32223263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6732bb0b363034b98695df09c7bacc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: []
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: A
+      Entry: 7
+      Data: 0|A3, Assembly-CSharp
+    - Name: BaseField
+      Entry: 3
+      Data: 0
+    - Name: _A1
+      Entry: 3
+      Data: 0
+    - Name: _A2
+      Entry: 3
+      Data: 0
+    - Name: _A3
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: B
+      Entry: 7
+      Data: 1|B1, Assembly-CSharp
+    - Name: BaseField
+      Entry: 3
+      Data: 0
+    - Name: _B1
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Array
+      Entry: 7
+      Data: 2|BaseClass[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
 --- !u!1 &128614352
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,7 +874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 865718078524192361, guid: d07c47139bfc7d44ba64e1f4f13e80fe, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00070031197
+      value: 0.000018149136
       objectReference: {fileID: 0}
     - target: {fileID: 865718078649893887, guid: d07c47139bfc7d44ba64e1f4f13e80fe, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1488,6 +1561,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d409153d682ba7841b61617213143c6e, type: 3}
+--- !u!1 &1514787177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 865718078524192360, guid: d07c47139bfc7d44ba64e1f4f13e80fe, type: 3}
+  m_PrefabInstance: {fileID: 865718077938767016}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1514787179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514787177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1181f3be03b458ba7dd5cec9123466f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storage:
+    capacity: 45
+    perishableMultiplier: 1
+    items: []
+    weight: 0
+    maxWeight: 500
 --- !u!1001 &1605823188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1900,7 +1996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 865718078524192361, guid: d07c47139bfc7d44ba64e1f4f13e80fe, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00070031197
+      value: 0.000018149136
       objectReference: {fileID: 0}
     - target: {fileID: 865718078649893887, guid: d07c47139bfc7d44ba64e1f4f13e80fe, type: 3}
       propertyPath: m_AnchorMax.x
