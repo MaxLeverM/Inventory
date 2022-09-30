@@ -9,11 +9,7 @@ namespace Inventory
         [SerializeField] private int stackCapacity;
         [SerializeField] private int currentAmount;
 
-        public int StackCapacity
-        {
-            get => stackCapacity;
-            set => stackCapacity = value;
-        }
+        public int StackCapacity => stackCapacity;
 
         public int CurrentAmount
         {

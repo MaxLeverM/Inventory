@@ -874,7 +874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 865718078524192361, guid: d07c47139bfc7d44ba64e1f4f13e80fe, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000018149136
+      value: 0.000686955
       objectReference: {fileID: 0}
     - target: {fileID: 865718078649893887, guid: d07c47139bfc7d44ba64e1f4f13e80fe, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1578,12 +1578,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1181f3be03b458ba7dd5cec9123466f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  storage:
-    capacity: 45
-    perishableMultiplier: 1
-    items: []
-    weight: 0
-    maxWeight: 500
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: storage
+      Entry: 7
+      Data: 0|Inventory.Storage, Assembly-CSharp
+    - Name: capacity
+      Entry: 3
+      Data: 20
+    - Name: perishableMultiplier
+      Entry: 4
+      Data: 1
+    - Name: items
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Inventory.Item, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: weight
+      Entry: 4
+      Data: 0
+    - Name: maxWeight
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+  itemSetting: {fileID: 11400000, guid: 807b200a2e7d0a24a88fb7b7fda74ac0, type: 2}
 --- !u!1001 &1605823188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1996,7 +2031,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 865718078524192361, guid: d07c47139bfc7d44ba64e1f4f13e80fe, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000018149136
+      value: 0.000686955
       objectReference: {fileID: 0}
     - target: {fileID: 865718078649893887, guid: d07c47139bfc7d44ba64e1f4f13e80fe, type: 3}
       propertyPath: m_AnchorMax.x

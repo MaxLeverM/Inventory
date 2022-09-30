@@ -1,11 +1,13 @@
-﻿using Sirenix.OdinInspector;
+﻿using System;
+using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using UnityEngine;
 
 namespace Inventory
 {
-    public class StorageView : MonoBehaviour
+    public class StorageView : SerializedMonoBehaviour
     {
-        [SerializeField] private Storage storage;
+        [NonSerialized, OdinSerialize] private Storage storage;
         [SerializeField] private ItemSetting itemSetting;
         
         [Button("Add 200 bread")]

@@ -15,9 +15,16 @@ namespace Inventory
         [SerializeField] private string description;
         [PreviewField][SerializeField] private Sprite icon;
         [SerializeField] private float weight;
-
         [SerializeField][TypeFilter("GetFilteredTypeList")]
         private List<ItemFeature> features = new List<ItemFeature>();
+
+        public int ID => id;
+
+        public string Title => title;
+
+        public string Description => description;
+
+        public float Weight => weight;
 
         public ItemFeature GetFeature(Type featureType)
         {
