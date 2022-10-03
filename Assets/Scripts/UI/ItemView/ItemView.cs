@@ -26,19 +26,28 @@ namespace UI
 
         public void Init(Item initItem)
         {
+            ResetView();
+            
             item = initItem;
             itemIcon.sprite = item.Icon;
             rightBottomText.text = item.Weight.ToString("0.0");
             
-            leftUpperText.text = string.Empty;
-            leftBottomText.text = string.Empty;
-            rightUpperText.text = string.Empty;
-            bottomBar.fillAmount = 0f;
-
             foreach (var featureItemView in featureItemViewContainer.FeatureItemViews)
             {
                 featureItemView.Draw(this, item);
             }
+        }
+
+        private void ResetView()
+        {
+            item = null;
+            itemIcon.sprite = null;
+            rightBottomText.text = string.Empty;
+            leftUpperText.text = string.Empty;
+            leftBottomText.text = string.Empty;
+            rightUpperText.text = string.Empty;
+            bottomBar.fillAmount = 0f;
+            bottomBar.color = Color.white;
         }
     }
 }

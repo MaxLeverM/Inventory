@@ -14,7 +14,12 @@ namespace Inventory
         public int CurrentAmount
         {
             get => currentAmount;
-            set => currentAmount = value;
+            set
+            {
+                var temp = value >= 1 ? value : 1;
+                temp = value <= stackCapacity ? value : stackCapacity;
+                currentAmount = temp;
+            }
         }
     }
 }
