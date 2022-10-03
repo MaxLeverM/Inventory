@@ -26,6 +26,8 @@ namespace Inventory
 
         public float Weight => weight;
 
+        public Sprite Icon => icon;
+
         public ItemFeature GetFeature(Type featureType)
         {
             var itemFeature = features.Find(x => x.GetType() == featureType);

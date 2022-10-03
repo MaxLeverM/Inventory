@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 86eb7a16f3bd435ea941a35d4a31b2bc, type: 3}
-  m_Name: ItemSetting
+  m_Name: Gold
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -27,7 +27,7 @@ MonoBehaviour:
       Data: 0|Inventory.Item, Assembly-CSharp
     - Name: id
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: title
       Entry: 1
       Data: Gold
@@ -39,7 +39,7 @@ MonoBehaviour:
       Data: 0
     - Name: weight
       Entry: 4
-      Data: 0
+      Data: 1
     - Name: features
       Entry: 7
       Data: 1|System.Collections.Generic.List`1[[Inventory.ItemFeature, Assembly-CSharp]],

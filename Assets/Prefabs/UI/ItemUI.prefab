@@ -223,6 +223,7 @@ MonoBehaviour:
   rightUpperText: {fileID: 7201789711380273391}
   leftBottomText: {fileID: 7105992335723754560}
   rightBottomText: {fileID: 1276424863510395572}
+  featureItemViewContainer: {fileID: 11400000, guid: 156a504d243729047b62f92d0b8efe08, type: 2}
 --- !u!1 &2079309855860313318
 GameObject:
   m_ObjectHideFlags: 0

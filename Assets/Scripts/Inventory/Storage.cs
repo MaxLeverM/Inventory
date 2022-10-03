@@ -7,11 +7,14 @@ namespace Inventory
     [Serializable]
     public class Storage
     {
-        [SerializeField] private int capacity;
+        [SerializeField] private int capacity = 45;
         [SerializeField] private float perishableMultiplier = 1;
-        [SerializeField] private List<Item> items;
+        [SerializeField] private List<Item> items = new List<Item>();
         [SerializeField] private float weight;
-        [SerializeField] private float maxWeight;
+        [SerializeField] private float maxWeight = 100;
+
+        public Action<List<Item>> OnItemListUpdated;
+        public List<Item> Items => items;
 
         public void AddItem(Item item)
         {
@@ -52,6 +55,7 @@ namespace Inventory
                 weight += item.Weight;
                 items.Add(item);
             }
+            OnItemListUpdated?.Invoke(items);
         }
 
         public void AddItems(IEnumerator<Item> itemsToAdd)

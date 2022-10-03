@@ -46,7 +46,37 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 2|Inventory.Stackable, Assembly-CSharp
+    - Name: stackCapacity
+      Entry: 3
+      Data: 500
+    - Name: currentAmount
+      Entry: 3
       Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Inventory.Eatable, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Inventory.Perishable, Assembly-CSharp
+    - Name: decayTime
+      Entry: 4
+      Data: 30
+    - Name: currentDecayTime
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
