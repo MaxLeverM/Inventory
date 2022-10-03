@@ -42,7 +42,8 @@ namespace Inventory
             var q = typeof(ItemFeature).Assembly.GetTypes()
                 .Where(x => !x.IsAbstract)
                 .Where(x => !x.IsGenericTypeDefinition)
-                .Where(x => typeof(ItemFeature).IsAssignableFrom(x));
+                .Where(x => typeof(ItemFeature).IsAssignableFrom(x))
+                .Where(x=> !features.Exists(k=>k.GetType()==x));
             return q;
         }
 
