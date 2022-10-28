@@ -15,7 +15,22 @@ namespace Lever.Scripts.Inventory
         [SerializeField] private float maxWeight = 100;
 
         public Action<List<Item>> OnItemListUpdated;
+        public int Capacity => capacity;
+        public float PerishableMultiplier => perishableMultiplier;
+        public float Weight => weight;
+        public float MaxWeight => maxWeight;
         public List<Item> Items => items;
+
+        public Storage()
+        {
+        }
+
+        public Storage(int capacity, float perishableMultiplier, float maxWeight)
+        {
+            this.capacity = capacity;
+            this.perishableMultiplier = perishableMultiplier;
+            this.maxWeight = maxWeight;
+        }
 
         public void AddItem(Item item)
         {

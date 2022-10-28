@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Lever.Scripts.Tests
 {
-    public class Player : SerializedMonoBehaviour, IKeepStorage // Only for development
+    public class Player : SerializedMonoBehaviour, IKeepStorage // Only for tests
     {
         [SerializeField] private Health health;
         [NonSerialized, OdinSerialize] private Storage storage = new Storage();
