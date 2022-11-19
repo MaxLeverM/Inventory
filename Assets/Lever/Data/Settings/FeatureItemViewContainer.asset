@@ -23,20 +23,20 @@ MonoBehaviour:
     SerializationNodes:
     - Name: featureItemViews
       Entry: 7
-      Data: 0|System.Collections.Generic.List`1[[UI.FeatureItemView.FeatureItemView,
-        Assembly-CSharp]], mscorlib
+      Data: 0|System.Collections.Generic.List`1[[Lever.Scripts.UI.ItemView.FeatureItemView.FeatureItemView,
+        UI]], mscorlib
     - Name: 
       Entry: 12
       Data: 2
     - Name: 
       Entry: 7
-      Data: 1|UI.FeatureItemView.StackableItemView, Assembly-CSharp
+      Data: 1|Lever.Scripts.UI.ItemView.FeatureItemView.PerishableItemView, UI
     - Name: featureType
       Entry: 7
       Data: 2|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Inventory.Stackable, Assembly-CSharp
+      Data: Lever.Scripts.Inventory.Feature.Perishable, Inventory
     - Name: 
       Entry: 8
       Data: 
@@ -45,13 +45,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 3|UI.FeatureItemView.PerishableItemView, Assembly-CSharp
+      Data: 3|Lever.Scripts.UI.ItemView.FeatureItemView.StackableItemView, UI
     - Name: featureType
       Entry: 7
       Data: 4|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Inventory.Perishable, Assembly-CSharp
+      Data: Lever.Scripts.Inventory.Feature.Stackable, Inventory
     - Name: 
       Entry: 8
       Data: 

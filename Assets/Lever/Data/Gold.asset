@@ -24,7 +24,7 @@ MonoBehaviour:
     SerializationNodes:
     - Name: item
       Entry: 7
-      Data: 0|Inventory.Item, Assembly-CSharp
+      Data: 0|Lever.Scripts.Inventory.Item, Inventory
     - Name: id
       Entry: 3
       Data: 1
@@ -42,14 +42,17 @@ MonoBehaviour:
       Data: 1
     - Name: features
       Entry: 7
-      Data: 1|System.Collections.Generic.List`1[[Inventory.ItemFeature, Assembly-CSharp]],
-        mscorlib
+      Data: 1|System.Collections.Generic.List`1[[Lever.Scripts.Inventory.Feature.ItemFeature,
+        Inventory]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 2|Inventory.Craftable, Assembly-CSharp
+      Data: 2|Lever.Scripts.Inventory.Feature.Stackable, Inventory
+    - Name: stackCapacity
+      Entry: 3
+      Data: 10
     - Name: 
       Entry: 8
       Data: 

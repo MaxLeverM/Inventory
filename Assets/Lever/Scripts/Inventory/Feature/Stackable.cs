@@ -7,7 +7,7 @@ namespace Lever.Scripts.Inventory.Feature
     public class Stackable : ItemFeature
     {
         [SerializeField] private int stackCapacity;
-        [SerializeField] private int currentAmount;
+        private int currentAmount;
 
         public int StackCapacity => stackCapacity;
 

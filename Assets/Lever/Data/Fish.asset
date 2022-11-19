@@ -24,7 +24,7 @@ MonoBehaviour:
     SerializationNodes:
     - Name: item
       Entry: 7
-      Data: 0|Inventory.Item, Assembly-CSharp
+      Data: 0|Lever.Scripts.Inventory.Item, Inventory
     - Name: id
       Entry: 3
       Data: 0
@@ -42,26 +42,23 @@ MonoBehaviour:
       Data: 0.2
     - Name: features
       Entry: 7
-      Data: 1|System.Collections.Generic.List`1[[Inventory.ItemFeature, Assembly-CSharp]],
-        mscorlib
+      Data: 1|System.Collections.Generic.List`1[[Lever.Scripts.Inventory.Feature.ItemFeature,
+        Inventory]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
       Entry: 7
-      Data: 2|Inventory.Stackable, Assembly-CSharp
+      Data: 2|Lever.Scripts.Inventory.Feature.Stackable, Inventory
     - Name: stackCapacity
       Entry: 3
-      Data: 50
-    - Name: currentAmount
-      Entry: 3
-      Data: 0
+      Data: 100
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 3|Inventory.Perishable, Assembly-CSharp
+      Data: 3|Lever.Scripts.Inventory.Feature.Perishable, Inventory
     - Name: decayTime
       Entry: 4
       Data: 30
@@ -73,7 +70,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 4|Inventory.Eatable, Assembly-CSharp
+      Data: 4|Lever.Scripts.Inventory.Feature.Eatable, Inventory
     - Name: 
       Entry: 8
       Data: 
